@@ -6,15 +6,13 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
-<style>
-@import 'https://fonts.googleapis.com/css?family=Vollkorn';
-</style>
 
 html {
-  font-family: 'Vollkorn', serif;
+  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
 }
