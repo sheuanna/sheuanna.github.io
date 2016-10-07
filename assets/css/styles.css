@@ -2,14 +2,17 @@
 	#OVERRIDE STLES
 	This style sheet can be used for two different functions:
 	1. Override specific Bootstrap styles.
-	2. Add your own styles.
+	2. Add other styles.
 \*------------------------------------*/
 
+/**
+ * Import Google Font
+*/
 
+@import 'https://fonts.googleapis.com/css?family=Vollkorn';
 /**
  * Change table background colour
 */
-
 
 
 .table-striped{
@@ -18,26 +21,18 @@
 
 
 /**
- * Padding-top is required if using .navbar-fixed-top.
- * This can be removed Remove if using .navbar-static-top.
- * The height may need to be changed if the height of you
- * navigation changes.
+ * Change the padding at the top and font
 */
 
 
 
-body { padding-top: 70px; }
+body { padding-top: 70px;
+  font-family: 'Vollkorn', serif;}
 
 
 
 /**
- * Bootstrap requires a containing element to wrap site contents
- * and house the grid system. You may choose one of two containers.
- * Use .container for a responsive fixed width container.
- * Use .container-fluid for a full width container.
-
- * If using container-fluid, you may need to set a maximum width,
- * so that the container will not spread to the entire viewport.
+ * Change the size of the container
 */
 
 .container-fluid { max-width: 950px; }
@@ -45,10 +40,7 @@ body { padding-top: 70px; }
 
 
 /**
- * Bootstrap adds a 20px margin to the bottom of elements that
- * have been given the class of thumbnail. When images have a
- * caption after them, this margin may be too large. You can
- * override it like this:
+ * CHange the size of the bottom margin
 */
 
 .thumbnail { margin-bottom: 5px; }
@@ -56,9 +48,7 @@ body { padding-top: 70px; }
 
 
 /**
- * We can add some "helper classes" to add or remove margins to
- * help aspects of the layout. These helper classes should only
- * be used sparingly.
+ * Adjusting the margins again
 */
 
 .margin-t-0 { margin-top: 0; }
